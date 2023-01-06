@@ -24,8 +24,6 @@ Adversary is very unlikely to make the same moves as your Monte Carlo samples.
 
 Typical Monte-Carlo search just uses as many probes as possible without expanding.
 
-
-
 ### Monte Carlo Tree Search
 
 A better version of statistical search than normal Monte Carlo Search.
@@ -53,9 +51,3 @@ selectValue = \frac{node.utility}{node.visits} + C \sqrt{\frac{\ln{node.parent.v
 $$
 
 Multiplayer and singleplayer games have a different approach. Have to modify the formula because min nodes will be minimizing the value and max nodes maximize.
-
-
-
-
-
-

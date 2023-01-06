@@ -26,8 +26,6 @@ Basis for $N(A) = V_2$
 
 Basis for $N(A)^\perp = V_1$ the projection: $A^+ A$
 
-
-
 **Example**
 
 Find $P_{R(A)} = AA^+$ 
@@ -43,8 +41,6 @@ P_{N(A)} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} - \
 $$
 
 Okay not too bad.
-
-
 
 ### Norms
 
@@ -64,11 +60,7 @@ Let $(V, \mathbb R)$ be a vector space. $||x||: V \rightarrow \mathbb R$ is a no
 
 3. $||x + y|| \leq ||x|| + ||y||$ (triangular inequality)
 
-
-
 We only need these three conditions! Then it's a norm. If we have a norm defined on $(V, \mathbb R)$ in this way then we call $V$ a *normed space*.
-
-
 
 **Examples**
 
@@ -106,8 +98,6 @@ Let $V = C([0,1], \mathbb R)$ where $C(X, Y)$ is continuous functions with domai
 
 For $f(x) \in V$ then $||f(x)|| = \max_{x} |f(x)|$
 
-
-
 **Properties of p-norm**
 
 Holder inequality - for $x, y \in \mathbb R^n$ and $1/p + 1/q = 1$ we have $|x^\top y| \leq ||x||_p ||y||_q$
@@ -139,19 +129,3 @@ $$
 $$
 
 How can they be equivalent? Notice if we pick $c_1 = 1$ then $||x_1|| \geq c_1||x||_\infty$  and if we pick $c_2 = n$ then $||x||_1 \leq n \max_i |x_i| = c_2 ||x||_\infty$ so they are equivalent!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
